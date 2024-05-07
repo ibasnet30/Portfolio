@@ -1,6 +1,7 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    height: 70vh;
+
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -33,6 +34,7 @@
   #experience,
   .experience-details-container {
     margin-top: 2rem;
+    padding-top: 15vh;
   }
   #profile,
   .section-container, .section-container-pe {
@@ -40,7 +42,7 @@
   }
 
   #profile{
-    height: 83vh;
+    height: 60vh;
     display: flex;
   }
   .arrow {
@@ -66,6 +68,10 @@
   .about-containers {
     margin-top: 0;
   }
+  #about{
+    padding-top: 17vh;
+  }
+
 }
 
 @media screen and (max-width: 950px) {
@@ -113,7 +119,8 @@
     height: 40vh;
   }
   #profile{
-    height: 83vh;
+    height: 70vh;
+
     margin-bottom: 0;
   }
 

@@ -14,6 +14,10 @@ body {
   z-index: 1000;
   
 }
+
+#desktop-nav{
+  height: 100px;
+}
 html{
   scroll-behavior: smooth;
 
@@ -165,6 +169,7 @@ section {
   margin: 0 6rem;
   box-sizing: border-box;
   min-height: fit-content;
+  padding-top: 15vh;
 }
 
 .skills{
@@ -280,10 +285,14 @@ section {
 
 /* ABOUT SECTION */
 
-#about, #certifications, #permit-experience {
+#about, #certifications, #permit-experience, #skills-experience {
   position: relative;
 }
 
+#skills-experience{
+  /* background-color: red; */
+  /* padding-top: 100px; */
+}
 #permit-experience{
   /* background-color: #11a372; */
 }
@@ -555,7 +564,6 @@ footer p {
   /* flex: 1; */
 }
 .permit-tile {
-  border: 1px solid #B0B0B0;
   padding: 1rem;
   margin: 1rem;
   border-radius: 1rem;
@@ -565,6 +573,9 @@ footer p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 30%;
+
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .certification-tile {
   border: 1px solid #B0B0B0;
@@ -577,9 +588,10 @@ footer p {
 }
 
 .permit-p{
-  font-size: 0.9rem;
-  color: black;
+  font-size: 1.1rem;
+  color: #505050;
   text-align: center;
+  font-weight: 900;
 }
 
 .section__permit{
@@ -608,7 +620,9 @@ footer p {
   background-color: rgb(255, 252, 252);
   padding: 1rem;
   margin: 1rem;
-  border: 1px solid #cccccc;
+  /* border: 1px solid #cccccc; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
 }
 .exp-div:hover{
   cursor: default;
