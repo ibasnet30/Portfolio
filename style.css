@@ -650,7 +650,7 @@ footer p {
   margin-right: 10px;
 }
 
-.job-type-location{
+.job-type-location, .job-dutation{
   font-size: 0.8rem;
   color: cornflowerblue;;
 }
@@ -789,4 +789,59 @@ li:hover {
 
 .skill-title{
   margin: 10px;
+}
+
+
+/* General container for the job timeline */
+.job-roles {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+/* Vertical line - modified to use height instead of bottom */
+.job-roles::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 0.35rem;
+  height: calc(100% - 80px); 
+  width: 2px;
+  background-color: #b0b0b0;
+  z-index: 0;
+}
+
+/* Rest of the styles remain the same */
+.job-title {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.job-indicator {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border: 2px solid #b0b0b0;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 4px;
+  z-index: 2;
+}
+
+.job-place{
+  font-size: 1.1 rem
+  ;
+  font-weight: 900;
+}
+.job-role, .job-reponsibilities{
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+.job-duration{
+  font-size: 0.9rem;
 }
