@@ -832,7 +832,17 @@ li:hover {
   margin-top: 4px;
   z-index: 2;
 }
-
+.job-indicator-1{
+  background-color: #11a372;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #b0b0b0;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 4px;
+  z-index: 2;
+  border-color: #11a372;
+}
 .job-place{
   font-size: 1.1 rem
   ;
