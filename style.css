@@ -285,8 +285,12 @@ section {
 
 /* ABOUT SECTION */
 
-#about, #certifications, #permit-experience, #skills-experience {
+#about, #certifications, #permit-experience , #skills-experience{
   position: relative;
+}
+
+#skills-experience{
+  height: 170vh;
 }
 
 #skills-experience{
@@ -343,7 +347,7 @@ section {
 
 .section-container, .section-container-pe {
   gap: 4rem;
-  height: 80%;
+  height: 100%;
 }
 
 .section__pic-container {
