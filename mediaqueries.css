@@ -1,21 +1,12 @@
 
 .section-container-pe{
-  /* background-color: red; */
   display: flex;
   align-items: center;
 }
 
-/* @media screen and (max-width: 1400px) {
-  #skills-experience{
-    height: 100vh;
-  }
-
-} */
 
 @media screen and (max-width: 1400px) {
-  /* #skills-experience{
-    height: 720vh;
-  } */
+ 
   #skills-experience{
     height: 100vh;
   }
@@ -272,13 +263,7 @@
   
 }
 @media screen and (max-width: 500px) {
-  /* .section__pic-container-2 {
-    width: auto;
-    background-color: rebeccapurple;
-    height: 20vw;
-    display: flex;
-    justify-content: center;
-  } */
+ 
   .about-pic{
     height: 200px
   }
@@ -293,7 +278,6 @@
     flex-direction: column;
    align-items: center;
 
-    /* flex: 1; */
 }
 
 .permit-tile {
